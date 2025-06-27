@@ -3,5 +3,9 @@ import utils;
 
 public class Program
 {
-    CSVManip manip = new CSVManip();
+    public static void main( String[] args )
+    {
+        Event.insertPlayers();
+    }
+
 }
